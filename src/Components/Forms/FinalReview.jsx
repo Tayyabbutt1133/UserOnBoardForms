@@ -1,9 +1,9 @@
-import React from 'react'
-import PersonalForm from './Personalform';
-import ProfessionalForm from './Professionalform';
-import EducationalForm from './Educationalform';
-import ContactForm from './Contactform';
-import JobForm from './Jobform';
+import React from "react";
+import PersonalForm from "./Personalform";
+import ProfessionalForm from "./Professionalform";
+import EducationalForm from "./Educationalform";
+import ContactForm from "./Contactform";
+import JobForm from "./Jobform";
 
 const FinalReview = () => {
   return (
@@ -12,9 +12,9 @@ const FinalReview = () => {
       <ProfessionalForm />
       <EducationalForm />
       <ContactForm />
-      <JobForm/>
+      <JobForm />
     </>
-  )
-}
+  );
+};
 
-export default FinalReview
+export default FinalReview;
