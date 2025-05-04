@@ -7,7 +7,7 @@ import Jobform from "../Components/Forms/Jobform";
 import StepperControl from "../Components/ProgressBar/StepperControl";
 import Stepper from "../Components/ProgressBar/Stepper";
 import { useSelector, useDispatch } from "react-redux";
-import { addNextStep, addBackStep } from "../redux/Slices/progressflow.slice";
+import { addNextStep, addBackStep } from "../redux/Slices/progressFlow.slice";
 import FinalReview from "../Components/Forms/FinalReview";
 
 const Onboarding = () => {
