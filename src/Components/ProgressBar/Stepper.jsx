@@ -1,6 +1,6 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
-import { updateCurrentStep } from "../../redux/Slices/progressflow.slice";
+import { updateCurrentStep } from "../../redux/Slices/progressFlow.slice";
 
 const Stepper = () => {
   const dispatch = useDispatch();
