@@ -12,7 +12,7 @@ const Stepper = () => {
     "Professional Information",
     "Job Details",
     "Contact Information",
-    "Final Review"
+    "Final Review",
   ];
 
   return (
@@ -28,9 +28,9 @@ const Stepper = () => {
           <div key={index} className="flex w-full items-center">
             <div
               className="relative flex flex-col items-center text-white cursor-pointer"
-             onClick={() => {
-                  if (isCompleted) {
-                    //  this will only update or get step updated which is completed, now it will move forward as next step is not logically completed, else option is backward as required
+              onClick={() => {
+                if (isCompleted) {
+                  //  this will only update or get step updated which is completed, now it will move forward as next step is not logically completed, else option is backward as required
                   dispatch(updateCurrentStep(stepNumber));
                 }
               }}
